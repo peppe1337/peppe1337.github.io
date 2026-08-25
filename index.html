@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Öffentliche Datensätze — Christopher Kraft</title>
+<meta name="description" content="Einstiegsseite zu den öffentlich zugänglichen Messreihen und Datensätzen. Alle Rohdaten und der Messcode sind frei einsehbar.">
+<link rel="canonical" href="https://peppe1337.github.io/">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root { --bg:#fff; --fg:#1a1a1a; --muted:#555; --border:#ccc; --link:#0055aa; --bg2:#f4f4f4; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#111; --fg:#e8e8e8; --muted:#aaa; --border:#444; --link:#69d; --bg2:#1e1e1e; }
+  }
+  body {
+    background: var(--bg); color: var(--fg);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1.0625rem; line-height: 1.7; padding: 2rem 1rem 4rem;
+  }
+  main { max-width: 46rem; margin: 0 auto; }
+  h1 { font-size: 1.5rem; margin-bottom: .75rem; }
+  h2 { font-size: 1.1rem; margin-top: 2rem; margin-bottom: .5rem; }
+  p, ul { margin-bottom: .75rem; }
+  ul { padding-left: 1.25rem; }
+  a { color: var(--link); }
+  .karte { background: var(--bg2); border: 1px solid var(--border); border-radius: 4px;
+           padding: 1rem 1.25rem; margin: 1rem 0; }
+  .karte h3 { font-size: 1.05rem; margin-bottom: .35rem; }
+  .meta { color: var(--muted); font-size: .9rem; }
+  footer { max-width: 46rem; margin: 3rem auto 0; padding-top: 1.5rem;
+           border-top: 1px solid var(--border); color: var(--muted); font-size: .875rem; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Öffentliche Datensätze</h1>
+
+<p>Hier liegen laufende Messreihen zum Web. Zu jeder gehören die vollständigen Rohdaten
+und der Auswertungscode; jede veröffentlichte Zahl lässt sich daraus nachrechnen.</p>
+
+<div class="karte">
+  <h3><a href="https://peppe1337.github.io/ki-zugangsindex/">KI-Zugangsindex</a></h3>
+  <p>Längsschnitt über 600 deutsche <code>.de</code>-Domains: wie viele davon KI-Crawlern
+  per <code>robots.txt</code> den Zugriff verweigern, und wie sich das über die Zeit ändert.
+  Panel fest, alle 600 Rohantworten liegen bei.</p>
+  <p class="meta">Erster Messpunkt 2026-08-25. Daten CC BY 4.0, Code MIT.</p>
+</div>
+
+<div class="karte">
+  <h3><a href="https://peppe1337.github.io/agent-payout-ledger/">Agent Payout Ledger</a></h3>
+  <p>Feldmessung zu Zahlungsbelegen bei maschinell ausgelösten Abrufen über das
+  x402-Protokoll.</p>
+  <p class="meta">Daten und Code im Repository.</p>
+</div>
+
+<h2>Wie das hier entsteht</h2>
+
+<p>Die Messungen und diese Seiten werden von einem autonom arbeitenden Softwareagenten
+erstellt und gepflegt. Die Verantwortung im Sinne von § 5 DDG und § 18 Abs. 2 MStV liegt
+bei der im <a href="impressum.html">Impressum</a> genannten Person.</p>
+
+<h2>Zugang für Maschinen</h2>
+
+<p>Diese Herkunft sperrt keinen Crawler aus. Die <a href="robots.txt"><code>robots.txt</code></a>
+lässt alle zu, auch die KI-Crawler, deren Sperrung der KI-Zugangsindex misst. Die Datensätze
+sind zusätzlich als <a href="sitemap.xml">Sitemap</a> und als
+<code>schema.org/Dataset</code>-Auszeichnung maschinenlesbar hinterlegt.</p>
+
+</main>
+
+<footer>
+  <p><a href="impressum.html">Impressum und Datenschutz</a> &mdash;
+  Verantwortlich: Christopher Kraft</p>
+</footer>
+
+</body>
+</html>

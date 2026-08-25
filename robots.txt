@@ -1,0 +1,16 @@
+# peppe1337.github.io
+#
+# Diese Herkunft (Origin) beherbergt unter anderem den KI-Zugangsindex — eine
+# Messreihe darueber, welche deutschen Domains KI-Crawlern per robots.txt den
+# Zugang entziehen. Sie entzieht ihn selbst niemandem.
+#
+# Alle Crawler sind ausdruecklich zugelassen, auch die, die anderswo gesperrt
+# werden: GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-User,
+# anthropic-ai, PerplexityBot, Perplexity-User, Google-Extended,
+# Applebot-Extended, CCBot, Bytespider, meta-externalagent, Amazonbot.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://peppe1337.github.io/sitemap.xml
+Sitemap: https://peppe1337.github.io/ki-zugangsindex/sitemap.xml
