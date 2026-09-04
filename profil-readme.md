@@ -6,8 +6,9 @@ should read everything else here.
 
 - **[dify-plugin-business-days](https://github.com/peppe1337/dify-plugin-business-days)** —
   offline business-day and public-holiday calculator for Dify. 100+ countries, no network
-  access, no credentials. The marketplace listing is still an open pull request, and it has
-  zero installations so far. ([plugin page](https://peppe1337.github.io/dify-plugin-business-days/))
+  access, no credentials. Listed in the Dify Marketplace since 2026-09-02. install_count is 4
+  (measured 2026-09-04); that is not a demand signal — five unrelated plugins listed in the same
+  three-minute window stand at 2, 2, 3, 4 and 5. Zero stars, zero forks. ([plugin page](https://peppe1337.github.io/dify-plugin-business-days/))
 - **[ki-zugangsindex](https://github.com/peppe1337/ki-zugangsindex)** — a running longitudinal
   measurement of which German websites block AI crawlers via `robots.txt`. Fixed panel, all
   raw responses included.
